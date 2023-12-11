@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;}
+</style>
+<polygon class="st0" points="21,10 17,10 17,6 15,6 15,10 11,10 11,12 15,12 15,16 17,16 17,12 21,12 "/>
+<path class="st0" d="M28,24H17v-4h6c1.1,0,2-0.9,2-2V4c0-1.1-0.9-2-2-2H9C7.9,2,7,2.9,7,4v14c0,1.1,0.9,2,2,2h6v4H4
+	c-1.1,0-2,0.9-2,2v4h2v-4h11v4h2v-4h11v4h2v-4C30,24.9,29.1,24,28,24z M9,4h14l0,14H9V4z"/>
+<rect id="_Transparent_Rectangle_" class="st1" width="32" height="32"/>
+</svg>
