@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #086b4c;
+    transition: .4s;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    padding: 0px 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.outline {
+    width: 40%;
+    margin: 15vh auto;
+    padding: 15px;
+    /* height: 50vh; */
+    border: 1px solid #5a575746;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.outline .title {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.outline .title img {
+    width: 5em;
+}
+
+.outline .title h1 {
+    margin-left: 9.5vw;
+    color: #086b4c;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+#forgot{
+    font-weight: 600;
+}
+
+hr {
+    border: 0 solid transparent;
+    background-color: #086b4c;
+    height: 2px;
+    width: 10vw;
+    align-self: center;
+}
+
+form {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+form .email {
+    margin: 15px 0px;
+}
+
+form .password {
+    margin: 15px 0px;
+}
+
+form input.button {
+    width: 30%;
+    height: 35px;
+    margin: 15px 0px;
+    align-self: center;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border: 0 solid transparent;
+    background-color: #086b4c;
+    letter-spacing: 0.015em;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+form input.button:link {
+    color: white;
+}
+
+form input.button:visited {
+    color: white;
+}
+
+form input.button:hover {
+    /* a:hover must come after a:link and a:visited */
+    background-color: #0ea776;
+    transition: .4s;
+}
+
+form input.button:active {
+    background-color: #07573d;
+}
+
+p.register {
+    align-self: flex-end;
+}
+
+p.register a{
+    font-weight: bold;
+}

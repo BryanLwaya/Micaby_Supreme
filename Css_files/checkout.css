@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;   
+    box-sizing: border-box;
+}
+
+a {
+    font-weight: bold;
+    color: #086b4c;
+    text-decoration: none;
+}
+
+hr {
+    border: 0 solid transparent;
+    background-color: #086b4c;
+    height: 2.5px;
+    border-radius: 50px;
+}
+
+input, select {
+    height: 35px;
+    border: 1px solid #086b4c;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+label {
+    font-weight: 700;
+}
+
+.outline {
+    width: 80%; 
+    margin: 7vh auto;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title img{
+    width: 4em;  
+    object-fit: cover;  
+}
+
+.title h1{
+    color: #086b4c;
+    font-size: 23px;
+    margin-left: 2px;
+}
+
+.outline .form_layout {
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .items{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    margin: 15px 0px 15px 0px;
+}
+
+form .items p{
+    margin-right: 10px;
+}
+
+form .items input{
+    width: 38em;
+}
+
+form .user-info input{
+    width: 100%;
+}
+
+form .user-info p{
+    margin: 15px 0px;
+}
+
+form #button {
+    width: 70%;
+    height: 35px;
+    margin: 20px 0px 15px 0px;
+    align-self: center;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border: 0 solid transparent;
+    background-color: #086b4c;
+    letter-spacing: 0.015em;
+    padding: 2px;
+}
+
+form #button:link {
+    color: white;
+}
+
+form #button:visited {
+    color: white;
+}
+
+form #button:hover {
+    /* a:hover must come after a:link and a:visited */
+    background-color: #0ea776;
+    transition: .5s;
+}
+
+form #button:active {
+    background-color: #07573d;
+}
+
+.outline .form_layout p.user-login{
+    margin-top: 10px;
+    align-self: center;
+    align-items: center;
+    display: inline;
+}
+
+.outline .form_layout p #login {
+    color: white;
+    width: 4em;
+    height: 6vh;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.015em;
+    border: 0px solid transparent;
+    background-color: #086b4c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.outline .form_layout p a#login:link {
+    color: white;
+}
+
+.outline .form_layout p a#login:visited {
+    color: white;
+}
+
+.outline .form_layout p a#login:hover {
+    /* a:hover must come after a:link and a:visited */
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.outline .form_layout p a#login:active {
+    background-color: #07573d;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr{
+    border-bottom: 2px solid;
+    height: 50px;
+}
+
+fieldset{
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+}
+
+.payment {
+    margin: 10px 0px;
+}
+
+.payment input{
+    height: 20px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}

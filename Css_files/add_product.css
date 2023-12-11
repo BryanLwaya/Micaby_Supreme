@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Images/add-products-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #086b4c;
+    font-weight: bold;
+    transition: .4s;
+}
+
+input,
+select {
+    width: 95%;
+    height: 30px;
+    padding: 0px 5px;
+    margin: 2px 10px 5px 10px;
+    border: 0px solid transparent;
+    border-radius: 3px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px 0px 10px;
+    font-size: 12pt;
+}
+
+textarea {
+    height: 30px;
+    border: 0;
+    width: 95%;
+    padding: 5px 5px;
+    margin: 2px 10px 5px 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+
+
+.outline {
+    width: 80%;
+    margin: 5vh auto;
+    padding: 10px 10px 0px 10px;
+    /* height: 50vh; */
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.outline .title {
+    display: flex;
+    align-items: center;
+    margin: 8px 10px;
+}
+
+.outline .title img {
+    width: 3.5em;
+}
+
+.outline .title h1 {
+    margin-left: 25vw;
+    color: white;
+    font-size: 30px;
+}
+
+hr {
+    border: 0;
+    background-color: white;
+    height: 2px;
+    width: 10vw;
+    align-self: center;
+}
+
+form {
+    margin: 30px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+form input.button {
+    width: 25%;
+    height: 40px;
+    margin: 10px 0px;
+    align-self: center;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border: 0;
+    background-color: #086b4c;
+    letter-spacing: 0.015em;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+form input.button:link {
+    color: white;
+}
+
+form input.button:visited {
+    color: white;
+}
+
+form input.button:hover {
+    /* a:hover must come after a:link and a:visited */
+    background-color: #0ea776;
+    transition: .4s;
+}
+
+form input.button:active {
+    background-color: #07573d;
+}
+
+form .dates,
+form .details1,
+form .selects {
+    width: 97.5%;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+form .dates p,
+form .details1 p,
+form .selects p {
+    flex: 1;
+}
+
+form p {
+    margin: 5px 0px;
+}
+
+.required {
+    color: red;
+    margin: 0px 2px;
+}
+
+#key {
+    width: 15%;
+    padding: 10px;
+    border: 2px solid rgb(255, 174, 0);
+    border-radius: 5px;
+    background-color: rgba(255, 238, 0, 0.192);
+    margin: 7px 0px;
+    color: white;
+}

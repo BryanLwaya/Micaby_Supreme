@@ -1,0 +1,356 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    transition: .4s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    border: 0 solid transparent;
+    background-color: #2b2b2b;
+    height: 2.5px;
+}
+
+header {
+    position: fixed;
+}
+
+.abovefold {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/backImg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backImg {
+    height: 100vh;
+    width: 66%;
+    display: inline;
+    position: absolute;
+    left: 34%;
+    align-self: center;
+    /* z-index: 2; */
+}
+
+.main-headline {
+    position: absolute;
+    margin: 200px 0px 0px 200px;
+    color: white;
+}
+
+#headline {
+    font-weight: 300;
+    font-size: 65pt;
+    color: white;
+    font-family: elephant;
+    z-index: 4;
+
+}
+
+.main-headline p {
+    margin: 10px 0px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.main-headline a #arrow {
+    position: relative;
+    top: 3px;
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.main-headline a {
+    margin-top: 10px;
+    position: absolute;
+    left: 100px;
+    text-align: center;
+    border: 0px solid transparent;
+    background-color: #086b4c;
+    border-radius: 23px;
+    width: 15vw;
+    height: 8vh;
+    color: white;
+    font-weight: 500;
+    margin-right: 0;
+}
+
+.benefit-list {
+    display: flex;
+}
+
+.benefit-list .benefit-images {
+    margin: 60px 20px 40px 90px;
+}
+
+.benefit-list .benefit-images #img1 {
+    position: absolute;
+    left: 50px;
+    top: 105vh;
+    width: 225px;
+    height: 250px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+
+.benefit-list .benefit-images #img2 {
+    width: 225px;
+    height: 250px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+
+.benefit-list .benefit-text {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+}
+
+.benefit-list .benefit-text .qlty {
+    text-align: center;
+}
+
+.benefit-list .benefit-text .trd {
+    text-align: center;
+    position: relative;
+    left: 50vw;
+
+}
+
+.benefit-list .benefit-text .price {
+    text-align: center;
+}
+
+.benefit-text .button {
+    position: relative;
+    left: 54vw;
+    text-align: center;
+    border: 3px solid #086b4c;
+    border-radius: 15px;
+    width: 12vw;
+    height: 8vh;
+    color: #086b4c;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+
+/* Features **************************************************/
+
+
+.cust-reviews {
+    height: 80vh;
+    width: 100%;
+    background-color: #2b2b2b;
+    background-image: url(../Images/reviews-background.jpg);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.cust-reviews .review-title {
+    color: white;
+    font-size: 2.5em;
+    padding: 20px 0px 0px 0px;
+    align-self: center;
+}
+
+.cust-reviews .review-box {
+    background-color: white;
+    position: relative;
+    width: 80%;
+    height: 75%;
+    margin: auto auto;
+    display: flex;
+    padding: 40px;
+}
+
+.cust-reviews .review-box .user {
+    display: flex;
+    flex-direction: column;
+}
+
+.cust-reviews .review-box .user img {
+    width: 9em;
+    height: 9em;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.cust-reviews .review-box .user h5 {
+    margin: 5px 0px;
+    padding: 10px;
+    font-size: large;
+    align-self: center;
+}
+
+.cust-reviews .review-box .comment {
+    margin: 30px 50px;
+}
+
+.cust-reviews .review-box .comment .subject {
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.cust-reviews .review-box .comment p {
+    margin-top: 15px;
+}
+
+.cust-reviews .review-box #arr1 {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    top: 83%;
+}
+
+.cust-reviews .review-box #arr2 {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 77%;
+    transform: scale(-1, 1);
+}
+
+.trusted-by {
+    margin: 30px 10px;
+}
+
+.trusted-by h3 {
+    font-size: xx-large;
+}
+
+.trusted-by .trustees {
+    display: flex;
+}
+
+.trusted-by .trustees #l-v{
+    width: 80px;
+    /* height: 100px; */
+    margin: 20px 100px;
+}
+
+.specials{
+    margin-bottom: 20px;
+}
+
+.sp-items {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.specials .title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10px 10px 50px 10px;
+}
+
+.specials .title .sp-title2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+}
+
+.specials .sp-images1,
+.specials .sp-images2 {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specials .sp-images1 img {
+    width: 30em;
+    height: 20em;
+    object-fit: cover;
+}
+
+.specials .sp-images2 img {
+    width: 30em;
+    height: 20em;
+    object-fit: cover;
+}
+
+.specials .discount-icons img {
+    position: absolute;
+    width: 7em;
+    height: 7em;
+    top: 380%;
+}
+
+.specials .discount-icons #disc-1 {
+    right: 83%;
+}
+
+.specials .discount-icons #disc-2 {
+    right: 43%;
+}
+
+footer{
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+.facebook,.instagram,.twitter{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer section div img{
+    margin: 5px;
+    width:20px;
+    height: 20px;
+}
+
+footer .col1, footer .col2, footer .col3{
+    font-size: medium;
+    flex: 1;
+}
+body footer #copyright{
+    position: absolute;
+    left: 28vw;
+    width: max-content;
+    margin-left: 10px;
+    /* top: 500%;  */
+}
+
+footer input{
+    width: 21em;
+    height: 3em;
+}
+
+footer a{
+    margin-left: 0px;
+    height: 3em;
+    color: white;
+    padding: 10px;
+    background-color: #086b4c;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+footer h4{
+    font-size: large;
+    font-weight: 800;
+}

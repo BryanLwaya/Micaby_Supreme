@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "aside main";
+    grid-template-columns: 17%;
+    grid-template-rows: 100%;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+    height: 100vh;
+}
+
+#back-img {
+    width: 60%;
+    height: 100vh;
+    margin-left: 40%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #086b4c;
+    font-weight: bold;
+    transition: .4s;
+}
+
+input {
+    width: 90%;
+    height: 50px;
+    padding: 0px 5px;
+    margin: 2px 10px 5px 10px;
+    border: 0px solid transparent;
+    border-radius: 3px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px 0px 10px;
+}
+
+.field {
+    width: 40%;
+    /* margin: 8vh 3vw; */
+    /* margin: 15vh auto; */
+    padding: 15px;
+    height: 70vh;
+    /* border: 1px solid #5a575746; */
+    /* border-radius: 0px 5px 5px 0px; */
+    display: flex;
+    flex-direction: column;
+    left: 20%;
+    top: 5%;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.field .title {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 15px 0px;
+    font-size: larger;
+}
+
+.field .title img {
+    width: 8vw;
+    margin-right: 6vw;
+}
+
+fieldset {
+    background-color: #2b2b2b;
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset input {
+    align-self: center;
+}
+
+form p {
+    margin: 8px 0px;
+}
+
+form p.back {
+    margin-bottom: 0;
+}
+
+form fieldset #add {
+    width: 40%;
+    height: 40px;
+    margin: 15px 0px;
+    align-self: center;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border: 0 solid transparent;
+    background-color: #086b4c;
+    letter-spacing: 0.015em;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+form fieldset #add:link {
+    color: white;
+}
+
+form fieldset #add:visited {
+    color: white;
+}
+
+form fieldset #add:hover {
+    /* a:hover must come after a:link and a:visited */
+    background-color: #0ea776;
+    transition: .4s;
+}
+
+form fieldset #add:active {
+    background-color: #07573d;
+}

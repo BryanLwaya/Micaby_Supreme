@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+    border: 4px solid #2b2b2b1c;
+    border-radius: 100px;
+}
+
+thead {
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    font-weight: bolder;
+}
+
+th {
+    font-size: 12pt;
+    text-align: left;
+    background-color: #086b4c;
+}
+
+thead .head th{
+    padding: 18px 15px;
+    border-bottom: 1px solid white;
+    background-color: #2b2b2be1;
+}
+
+table tbody tr {
+    border-bottom: 2px solid #acacac;
+}
+
+table td , table th{
+    padding: 10px 15px;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 4px solid #086b4c;
+}
+
+table tbody tr:hover {  
+    background-color: #dbdbdb;
+    color: #086b4c;
+}
+
+.button {
+    width: fit-content;
+    font-size: 15px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    background-color: #2b2b2b;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    border: 0;
+    margin-top: 10px;
+}
+
+.button:link {
+    color: white;
+}
+
+.button:visited {
+    color: white;
+}
+
+.button:hover {
+    background-color: #086b4c;
+    transition: .3s;
+}
+
+.button:active {
+    background-color: #07573d;
+}
